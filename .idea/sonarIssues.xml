@@ -23,6 +23,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/components/moviecard/index.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/components/moviescore/index.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/components/moviescore/style.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/components/moviestart/index.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/components/moviestart/style.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/frontend/src/components/pagination/index.tsx">
           <value>
             <set />
