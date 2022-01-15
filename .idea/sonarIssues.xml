@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/backend/src/main/java/com/marinho/dsmovie/config/SecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/frontend/src/App.tsx">
           <value>
             <set />
