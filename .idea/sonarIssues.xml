@@ -113,6 +113,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/frontend/public/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/frontend/src/App.tsx">
           <value>
             <set />
@@ -189,6 +194,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/frontend/src/pages/listing/index.tsx">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/types/movie.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/utils/requests.ts">
           <value>
             <set />
           </value>
