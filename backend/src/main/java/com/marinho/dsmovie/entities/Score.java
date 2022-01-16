@@ -1,14 +1,16 @@
 package com.marinho.dsmovie.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import org.hibernate.Hibernate;
 
-import javax.persistence.*;
+import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import java.util.Objects;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter
+@Setter
+@ToString
 @Entity
 @Table(name = "tb_score")
 public class Score {
@@ -17,11 +19,32 @@ public class Score {
     private ScorePK id = new ScorePK();
     private Double value;
 
-    void setMovie(Movie movie) {
+    public void setMovie(Movie movie) {
         id.setMovie(movie);
     }
 
-    void setUser(User user) {
+    public void setUser(User user) {
         id.setUser(user);
+    }
+
+    public Score() {
+    }
+
+    public Score(ScorePK id, Double value) {
+        this.id = id;
+        this.value = value;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
+        Score score = (Score) o;
+        return id != null && Objects.equals(id, score.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }
